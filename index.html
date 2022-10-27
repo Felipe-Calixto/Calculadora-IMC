@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conteiner">
+        <h1>CALCULADORA IMC</h1>
+        <form>
+            <input type="text" placeholder="Nome" id="name">
+            <input type="number" placeholder="Altura" id="altura">
+            <input type="number" placeholder="Peso" id="peso">
+        </form>
+        <div class="bnt" id="calc">
+            <button>Calcular</button>
+        </div>
+    </div>
+    <div id="aviso" class="hide">
+        <h2><span id="nome">Felipe</span> o seu imc é de <span id="result">17</span></h2>
+        <div class="bnt">
+            <button onclick="window.location.reload();" id="restart">Refazer</button>
+        </div>
+    </div>
+        
+    <script src="index.js"></script>
+</body>
+</html>
